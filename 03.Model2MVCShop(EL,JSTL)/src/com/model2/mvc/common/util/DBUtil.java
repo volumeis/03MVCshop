@@ -9,7 +9,7 @@ public class DBUtil {
 	
 	///Field
 	private final static String JDBC_DRIVER = "oracle.jdbc.driver.OracleDriver";
-	private final static String JDBC_URL = "jdbc:oracle:thin:scott/tiger@localhost:1521:xe";
+	private final static String JDBC_URL = "jdbc:oracle:thin:scott/tiger@java78bit404.iptime.org:5025:xe";
 	
 	///Constructor
 	private DBUtil(){

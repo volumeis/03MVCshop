@@ -4,18 +4,18 @@ import java.util.Map;
 
 import com.model2.mvc.common.Search;
 import com.model2.mvc.service.user.UserService;
-import com.model2.mvc.service.user.dao.UserDao;
+import com.model2.mvc.service.user.dao.UserDAO;
 import com.model2.mvc.service.domain.User;
 
 
 public class UserServiceImpl implements UserService{
 	
 	///Field
-	private UserDao userDao;
+	private UserDAO userDao;
 	
 	///Constructor
 	public UserServiceImpl() {
-		userDao=new UserDao();
+		userDao = new UserDAO();
 	}
 
 	///Method

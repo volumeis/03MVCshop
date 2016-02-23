@@ -144,11 +144,11 @@ function resetData() {
 											
 				<option value="010" <%= phone1.equals("010") ? "selected" : "" %> >010</option>
 				<option value="011" <%= phone1.equals("011") ? "selected" : "" %> >011</option>
-				<option value="016" <%= phone1.equals("016") ? "selected" : "" %> >016</option>
+				<option value="016" <%= phone1.equals("016") ?1 "selected" : "" %> >016</option>
 				<option value="018" <%= phone1.equals("018") ? "selected" : "" %> >018</option>
 				<option value="019" <%= phone1.equals("019") ? "selected" : "" %> >019</option>
 				--%>
-				
+			
 				<option value="010" ${ ! empty user.phone1 && user.phone1 == "010" ? "selected" : ""  } >010</option>
 				<option value="011" ${ ! empty user.phone1 && user.phone1 == "011" ? "selected" : ""  } >011</option>
 				<option value="016" ${ ! empty user.phone1 && user.phone1 == "016" ? "selected" : ""  } >016</option>

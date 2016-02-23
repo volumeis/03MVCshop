@@ -13,12 +13,12 @@ import com.model2.mvc.common.util.DBUtil;
 import com.model2.mvc.service.domain.User;
 
 
-public class UserDao {
+public class UserDAO { 
 	
 	///Field
 	
 	///Constructor
-	public UserDao() {
+	public UserDAO() {
 	}
 
 	///Method

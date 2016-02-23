@@ -6,7 +6,7 @@
   </context-param>
   <context-param>
     <param-name>pageSize</param-name>
-    <param-value>3</param-value>
+    <param-value>10</param-value>
   </context-param>
   <filter>
     <filter-name>requestFilter</filter-name>
